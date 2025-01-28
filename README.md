@@ -1,8 +1,5 @@
 # weathernow
 
-![App Screenshot](https://via.placeholder.com/300x500.png?text=App+Screenshot) 
-*(Replace this with a screenshot of your app)*
-
 A beautiful and functional Flutter weather application that displays current weather conditions, a 5-day forecast, and allows searching for weather data in different locations. This app leverages the WeatherAPI, local caching, and a clean UI to provide an intuitive user experience.
 
 ## Table of Contents
