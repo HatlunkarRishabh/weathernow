@@ -100,9 +100,9 @@ Follow these steps to set up and run the application on your local machine.
 
 ### Execution
 1.  Replace `"YOUR_API_KEY"` in `lib/utils/constants.dart` with your actual WeatherAPI key:
-  ```dart
-  const String apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
-  ```
+    ```dart
+    const String apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
+    ```
 
 2. Run the code generator:
    ```dart
