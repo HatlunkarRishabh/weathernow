@@ -45,35 +45,36 @@ This app follows a layered architecture:
 -   **Model Layer:** Defines the data models for weather and forecast data.
 
 ## Project Structure
-weathernow/
-├── lib/
-│ ├── main.dart # Entry point of the application
-│ ├── models/
-│ │ ├── weather_model.dart # Data model for current weather
-│ │ └── daily_forecast_model.dart # Data model for daily forecast
-│ ├── services/
-│ │ ├── weather_service.dart # Handles API requests and data parsing
-│ │ └── network_service.dart # Network connection verifier
-│ ├── providers/
-│ │ └── weather_provider.dart # Manages app state and data fetching
-│ ├── widgets/
-│ │ ├── weather_card.dart # Displays current weather info
-│ │ ├── daily_forecast_card.dart # Displays daily forecast card
-│ │ ├── error_widget.dart # Display error messages
-│ │ ├── weather_icon.dart # Displays the weather icons
-│ │ └── skeleton_widget.dart # Displays the skeletons when loading
-│ ├── utils/
-│ │ └── constants.dart # API Key and other constants
-│ └── screens/
-│ ├── home_screen.dart # Main weather screen
-│ ├── search_screen.dart # Screen for searching weather data
-│ └── splash_screen.dart # Splash screen for initial loading
-├── test/ # Unit tests
-│ └── ...
-├── pubspec.yaml # Flutter dependencies
-├── README.md # This file
-└── ...
-
+  ```
+  weathernow/
+  ├── lib/
+  │ ├── main.dart # Entry point of the application
+  │ ├── models/
+  │ │ ├── weather_model.dart # Data model for current weather
+  │ │ └── daily_forecast_model.dart # Data model for daily forecast
+  │ ├── services/
+  │ │ ├── weather_service.dart # Handles API requests and data parsing
+  │ │ └── network_service.dart # Network connection verifier
+  │ ├── providers/
+  │ │ └── weather_provider.dart # Manages app state and data fetching
+  │ ├── widgets/
+  │ │ ├── weather_card.dart # Displays current weather info
+  │ │ ├── daily_forecast_card.dart # Displays daily forecast card
+  │ │ ├── error_widget.dart # Display error messages
+  │ │ ├── weather_icon.dart # Displays the weather icons
+  │ │ └── skeleton_widget.dart # Displays the skeletons when loading
+  │ ├── utils/
+  │ │ └── constants.dart # API Key and other constants
+  │ └── screens/
+  │ ├── home_screen.dart # Main weather screen
+  │ ├── search_screen.dart # Screen for searching weather data
+  │ └── splash_screen.dart # Splash screen for initial loading
+  ├── test/ # Unit tests
+  │ └── ...
+  ├── pubspec.yaml # Flutter dependencies
+  ├── README.md # This file
+  └── ...
+  ```
 
 ## Getting Started
 
